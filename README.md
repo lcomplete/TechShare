@@ -28,4 +28,4 @@
 ## 其他编程语言
 > 不同的编程语言，不同的设计思想。
 * [使用prolog解决爱因斯坦斑马难题](docs/lang/使用prolog解决爱因斯坦斑马难题.md)
-* [一段简单的ruby爬虫代码](docs/lang/一段简单的ruby爬虫代码.md))
+* [一段简单的ruby爬虫代码](docs/lang/一段简单的ruby爬虫代码.md)
