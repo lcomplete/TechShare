@@ -17,7 +17,7 @@
 
 ## Java
 
-* [俯瞰 Java 服务端开发](docs/java/java服务端开发指南.md)
+* [俯瞰 Java 服务端开发](docs/java/俯瞰Java服务端开发.md)
 
 ## 编程语言
 
