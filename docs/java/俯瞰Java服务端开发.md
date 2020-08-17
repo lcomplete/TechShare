@@ -37,8 +37,16 @@
   - [服务注册与发现](#服务注册与发现)
   - [熔断与降级](#熔断与降级)
   - [链路追踪 / APM](#链路追踪--apm)
+  - [API 网关](#api-网关)
   - [服务网格](#服务网格)
 - [常用开源组件](#常用开源组件)
+  - [数据访问](#数据访问)
+  - [工具组件](#工具组件)
+  - [缓存](#缓存)
+  - [字节码修改](#字节码修改)
+  - [http客户端](#http客户端)
+  - [响应式编程](#响应式编程)
+  - [序列化](#序列化)
 - [编程思想 & 编程范式](#编程思想--编程范式)
 - [安全](#安全)
 - [DevOps](#devops)
@@ -221,9 +229,11 @@ RPC 框架的原理其实与 HTTP 调用类似，只是采用了更精简的协�
 
 ### 日志系统
 
-日志系统一般采用 ELK 技术栈，这其中包含三个子系统，因此要扩展一个新功能，可以有多种方式切入，比如做监控报警，可以使用 logstash 将 metrics 写入到 Prometheus，也可以使用 kibana 上的 sentinl 插件或者 ElastAlert 插件。
-
-logstash 支持从许多管道收集数据，其中包括 kafka，在日志量特别大的情况下，可以将日志先发送至 kafka。
+- ELK
+  - 日志系统一般采用 ELK 技术栈，这其中包含三个子系统，因此要扩展一个新功能，可以有多种方式切入，比如做监控报警，可以使用 logstash 将 metrics 写入到 Prometheus，也可以使用 kibana 上的 sentinl 插件或者 ElastAlert 插件。
+  - logstash 支持从许多管道收集数据，其中包括 kafka，在日志量特别大的情况下，可以将日志先发送至 kafka。
+- Sentry
+  - 日志在很大一部分场景下都是用于排查错误的，除了 ELK 外还有专注于应用程序错误报告的系统，比如 Sentry。
 
 ### 配置中心
 
@@ -261,6 +271,15 @@ Nacos 是阿里开源的一款集配置中心和注册中心于一体的系统�
 - SkyWalking
 - jaeger
 
+### API 网关
+
+Spring Cloud 体系中常用的网关前有 Eureka，后有 Gateway，这一类跟 Spring Cloud 结合紧密，使用方便，但由于它们都是 Java 写成，在许多场景下还是比不上一些专门的网关产品。
+
+- Kong
+  - Kong 是 OpenResty 的衍生开源网关产品，拥有优秀的性能和丰富的插件，可满足许多的扩展性需求。
+- Traefik
+  - Traefik 是用 Go 语言编写的网关，定位是云原生的边界路由网关产品，它拥有丰富的特性、易用的控制面板，与云原生场景深度结合，提供了实时的流量指标可对接到 Prometheus 中。其企业版包含限流、高可用等特性，开源版在这一部分有所缺失。
+
 ### 服务网格
 
 从单体应用到微服务的演进，我们会发现服务治理、熔断、Tracing 这些几乎是必不可少的部分，即使是使用 Spring Cloud 框架，我们也需要关注大量的微服务技术细节，为了分离这一关注点并使这些技术成为基础设施一般的存在，服务网格应运而生。
@@ -275,6 +294,49 @@ Nacos 是阿里开源的一款集配置中心和注册中心于一体的系统�
 - Linkerd
 
 ## 常用开源组件
+
+### 数据访问
+
+- MyBatis Plus
+- Mapper
+- jOOQ
+- JPA
+- dynamic-datasource-spring-boot-starter 
+- sharding-jdbc
+
+### 工具组件
+
+- guava
+- commons-lang3
+- hutool
+
+### 缓存
+
+- redission
+- jetcache
+- caffeine
+
+### 字节码修改
+
+- asm
+- javassist
+- cglib
+
+### http客户端
+
+- okhttp
+- Aache HttpClient
+- retrofit
+- openfeign
+
+### 响应式编程
+
+- RxJava
+- reactor-core
+
+### 序列化
+
+- protostuff
 
 ## 编程思想 & 编程范式
 
