@@ -273,7 +273,7 @@ Nacos 是阿里开源的一款集配置中心和注册中心于一体的系统�
 
 ### API 网关
 
-Spring Cloud 体系中常用的网关前有 Eureka，后有 Gateway，这一类跟 Spring Cloud 结合紧密，使用方便，但由于它们都是 Java 写成，在许多场景下还是比不上一些专门的网关产品。
+Spring Cloud 体系中常用的网关前有 Zuul，后有 Gateway，这一类跟 Spring Cloud 结合紧密，使用方便，但由于它们都是 Java 写成，在许多场景下还是比不上一些专门的网关产品。
 
 - Kong
   - Kong 是 OpenResty 的衍生开源网关产品，拥有优秀的性能和丰富的插件，可满足许多的扩展性需求。
