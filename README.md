@@ -15,6 +15,10 @@
 * [俯瞰 Java 服务端开发](docs/java/俯瞰Java服务端开发.md)
 * [Java 单元测试.pptx](docs/java/java单元测试.pptx)
 
+## Javascript
+
+* [使用 lit 编写 Web Components 简化 Layui 代码](docs/js/lit_layui.md)
+
 ## 编程思想
 
 > Thinking in code.
