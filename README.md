@@ -8,12 +8,15 @@
 
 * [计算机编程：自底向上方法](docs/world/自底向上方法.md)  -->
 
+## 近期更新
+
+* [2021-05-06] [使用 lit 编写 Web Components 简化 Layui 代码](docs/js/lit_layui.md)
+
 ## Java
 
-* [Java 学习大法](docs/java/java_study_way.md)
-* [Java 工程师能力提升路径（一）：从业余到专业](docs/java/part_one_of_java_engineer_path.md)
 * [俯瞰 Java 服务端开发](docs/java/俯瞰Java服务端开发.md)
-* [Java 单元测试.pptx](docs/java/java单元测试.pptx)
+* [Java 工程师能力提升路径（一）：从业余到专业](docs/java/part_one_of_java_engineer_path.md)
+* [Java 学习大法](docs/java/java_study_way.md)
 
 ## Javascript
 
@@ -25,15 +28,10 @@
 
 * [编码的道与禅](docs/thinking/编码的道与禅.md)
 * [程序员的职业素养](docs/thinking/程序员的职业素养.md)
-* [敏捷开发修炼之道.pptx](docs/thinking/敏捷开发修炼之道.pptx)
 
-## 架构
+<!-- ## 架构 -->
 
-* [分布式系统开发-微服务基础设施架构.pptx](docs/java/分布式系统开发-微服务基础设施架构.pptx)
-
-## 数据库
-
-* [MySQL 工作指南.pptx](docs/db/MySQL%20工作指南.pptx)
+<!-- ## 数据库 -->
 
 ## 编程语言
 
@@ -47,3 +45,10 @@
 > 懒惰是程序员的美德，提升开发效率，残酷无情地推动自动化吧！
 
 * [效率工具箱](docs/tools/我的效率工具箱.md)
+
+## 技术分享 PPT
+
+* [分布式系统开发-微服务基础设施架构.pptx](docs/java/分布式系统开发-微服务基础设施架构.pptx)
+* [敏捷开发修炼之道.pptx](docs/thinking/敏捷开发修炼之道.pptx)
+* [Java 单元测试.pptx](docs/java/java单元测试.pptx)
+* [MySQL 工作指南.pptx](docs/db/MySQL%20工作指南.pptx)
