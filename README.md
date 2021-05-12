@@ -11,6 +11,7 @@
 ## 近期更新
 
 * [2021-05-06] [使用 lit 编写 Web Components 简化 Layui 代码](docs/js/lit_layui.md)
+* [2021-05-12] [研发质量与效率的绩效指标设计](docs/thinking/coder_kpi.md)
 
 ## Java
 
@@ -22,12 +23,13 @@
 
 * [使用 lit 编写 Web Components 简化 Layui 代码](docs/js/lit_layui.md)
 
-## 编程思想
+## 编程人生
 
 > Thinking in code.
 
 * [编码的道与禅](docs/thinking/编码的道与禅.md)
 * [程序员的职业素养](docs/thinking/程序员的职业素养.md)
+* [研发质量与效率的绩效指标设计](docs/thinking/coder_kpi.md)
 
 <!-- ## 架构 -->
 
