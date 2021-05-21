@@ -10,8 +10,11 @@
 
 ## 近期更新
 
-* [2021-05-06] [使用 lit 编写 Web Components 简化 Layui 代码](docs/js/lit_layui.md)
+<!-- * [2021-05-19] [使用开源工作流自动化系统 n8n 解放程序员的双手](docs/tools/n8n.md) -->
+
+* [2021-05-21] [DevOps 原则与实践.pptx](docs/ppt/DevOps%20原则与实践.pptx)
 * [2021-05-12] [研发质量与效率的绩效指标设计](docs/thinking/coder_kpi.md)
+* [2021-05-06] [使用 lit 编写 Web Components 简化 Layui 代码](docs/js/lit_layui.md)
 
 ## Java
 
@@ -50,6 +53,7 @@
 
 ## 技术分享 PPT
 
+* [DevOps 原则与实践.pptx](docs/ppt/DevOps%20原则与实践.pptx)
 * [分布式系统开发-微服务基础设施架构.pptx](docs/java/分布式系统开发-微服务基础设施架构.pptx)
 * [敏捷开发修炼之道.pptx](docs/thinking/敏捷开发修炼之道.pptx)
 * [Java 单元测试.pptx](docs/java/java单元测试.pptx)
