@@ -10,8 +10,7 @@
 
 ## 近期更新
 
-<!-- * [2021-05-19] [使用开源工作流自动化系统 n8n 解放程序员的双手](docs/tools/n8n.md) -->
-
+* [2021-05-21] [使用开源工作流自动化工具 n8n 打造个人助理](docs/tools/n8n.md)
 * [2021-05-21] [DevOps 原则与实践.pptx](docs/ppt/DevOps%20原则与实践.pptx)
 * [2021-05-12] [研发质量与效率的绩效指标设计](docs/thinking/coder_kpi.md)
 * [2021-05-06] [使用 lit 编写 Web Components 简化 Layui 代码](docs/js/lit_layui.md)
@@ -50,6 +49,7 @@
 > 懒惰是程序员的美德，提升开发效率，残酷无情地推动自动化吧！
 
 * [效率工具箱](docs/tools/我的效率工具箱.md)
+* [使用开源工作流自动化工具 n8n 打造个人助理](docs/tools/n8n.md)
 
 ## 技术分享 PPT
 
