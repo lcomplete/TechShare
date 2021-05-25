@@ -87,7 +87,7 @@ master.xml 中的代码：
 </databaseChangeLog>
 ```
 
-有更新时新增 include 标签即可。
+有更新时新增 include 标签和对应的文件即可。
 
 ---
 
