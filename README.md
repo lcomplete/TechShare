@@ -10,6 +10,7 @@
 
 ## 近期更新
 
+* [2021-05-25] [5 分钟搞定 liquibase 数据库版本控制](docs/java/liquibase.md)
 * [2021-05-24] [万字长文带你彻底搞懂什么是 DevOps](docs/engineering/devops.md)
 * [2021-05-21] [使用开源工作流自动化工具 n8n 打造个人助理](docs/tools/n8n.md)
 * [2021-05-21] [DevOps 原则与实践.pptx](docs/ppt/DevOps%20原则与实践.pptx)
@@ -21,6 +22,7 @@
 * [俯瞰 Java 服务端开发](docs/java/俯瞰Java服务端开发.md)
 * [Java 工程师能力提升路径（一）：从业余到专业](docs/java/part_one_of_java_engineer_path.md)
 * [Java 学习大法](docs/java/java_study_way.md)
+* [5 分钟搞定 liquibase 数据库版本控制](docs/java/liquibase.md)
 
 ## 软件工程
 
