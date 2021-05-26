@@ -10,6 +10,7 @@
 
 ## 近期更新
 
+* [2021-05-26] [【10 倍程序员系列】总计超 51 万 star 的终端命令行工具让你看上去像个 10 倍程序员](docs/10x/terminal.md)
 * [2021-05-25] [5 分钟搞定 liquibase 数据库版本控制](docs/java/liquibase.md)
 * [2021-05-24] [万字长文带你彻底搞懂什么是 DevOps](docs/engineering/devops.md)
 * [2021-05-21] [使用开源工作流自动化工具 n8n 打造个人助理](docs/tools/n8n.md)
