@@ -172,7 +172,7 @@
 
     地址：https://github.com/sharkdp/bat
 
-    一句话点评：cat 的替代品，是猛男就用 bat。
+    一句话点评：``cat`` 的替代品，是猛男就用 bat。
 
 ## 其他让人赞叹的工具
 
@@ -203,6 +203,8 @@ tdlr 是 ``Too long, Don't read`` 的缩写，可以帮助你快速查看常用�
 地址：https://github.com/nvbn/thefuck
 
 在终端下是不是经常输错命令，搞得自己心烦意乱，``The Fuck`` 是一款了不起的工具，帮你彻底解决这个问题，当你输错命令后，只要输入 ``fuck`` 命令，它会帮你自动纠正错误，精彩之极！
+
+![thefxxk](terminal/thefxxk.gif)
 
 ### w3m
 
