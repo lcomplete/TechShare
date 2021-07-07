@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - lts/*
+before_install:
+  - export TZ='Asia/Shanghai'
+install:
+  - npm install
+script:
+  - npm run build
+  #- echo "lcomplete.github.io" >> .vuepress/dist/CNAME
+deploy:
+  - provider: pages
+    skip_cleanup: true
+    local_dir: .vuepress/dist
+    github_token: $gh_token
+    keep_history: true
+    target-branch: gh-pages
+    on:
+      branch: master
+  - provider: script
+    keep_history: true
+    skip_cleanup: true
+    #script: npm run deoply:refresh-cdn
+    on:
+      branch: master
