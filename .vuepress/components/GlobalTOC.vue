@@ -98,7 +98,6 @@
         }
       },
       getLinks: function (page) {
-        console.error(page)
         return (page.readingTime && page.readingTime.words > 100) ? "/TechShare" + page.path : null
       },
       getUpdate: function (page) {
