@@ -33,7 +33,7 @@
 
 单元测试并非是随手写来验证功能的临时代码，而是需要符合 AIR 原则，所以编写起来是需要一定的功力的。
 
-关于 AIR 原则在阿里的 Java 规范中有提及，其他相关的规范也值得学习，我在这里引用方便读者朋友查看，完整的规范可在 Github 中查看，地址：<https://github.com/alibaba/p3c/blob/master/p3c-gitbook/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95.md>。
+关于 AIR 原则在阿里的 Java 规范中有提及，其他相关的规范也值得学习，我在这里引用方便读者朋友查看，完整的规范可在 Github 中查看，地址：[p3c 单元测试](https://github.com/alibaba/p3c/blob/master/p3c-gitbook/%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95.md)。
 
 1. 【强制】好的单元测试必须遵守AIR原则。 
 <br><span style="color:orange">说明</span>：单元测试在线上运行时，感觉像空气（AIR）一样并不存在，但在测试质量的保障上，却是非常关键的。好的单元测试宏观上来说，具有自动化、独立性、可重复执行的特点。 
