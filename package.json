@@ -1,0 +1,41 @@
+{
+  "name": "techshare",
+  "version": "1.0.0",
+  "description": "> 分享使你我都受益，何乐而不为也。但伏尔泰说过，图书馆是真理和谬误的宝库，所以仅是希望对你有益，若有谬误还望指出以更正。",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev . --temp .temp",
+    "build": "vuepress build ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcomplete/TechShare.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lcomplete/TechShare/issues"
+  },
+  "homepage": "https://github.com/lcomplete/TechShare#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2",
+    "@vuepress/plugin-back-to-top": "^1.4.0",
+    "github-buttons": "^2.13.0",
+    "moment": "^2.24.0",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-figure": "^0.2.0",
+    "markdown-it-ins": "^3.0.0",
+    "markdown-it-mermaid": "^0.2.5",
+    "markdown-it-smartarrows": "^1.0.1",
+    "markdown-it-sub": "^1.0.0",
+    "markdown-it-sup": "^1.0.0"
+  },
+  "dependencies": {
+    "markdown-it-fontawesome": "^0.3.0"
+  }
+}

@@ -50,7 +50,7 @@ Layui 是一套开源的 Web UI 解决方案，主要面向的是不熟悉前端
 
 # Web Components 介绍
 
-随着 React 等技术的流行，前端工程化的发展越来越快，浏览器也在不断适应这种发展并且逐步开始原生支持一些优秀的技术，比如组件化开发，谷歌作为 Chrome 浏览器的拥有者，一直在推进 Web Components 技术的发展，目前许多主流浏览器已经支持 Web Components 技术。关于 Web Components 的简介可参考 http://www.ruanyifeng.com/blog/2019/08/web_components.html 这篇博客。
+随着 React 等技术的流行，前端工程化的发展越来越快，浏览器也在不断适应这种发展并且逐步开始原生支持一些优秀的技术，比如组件化开发，谷歌作为 Chrome 浏览器的拥有者，一直在推进 Web Components 技术的发展，目前许多主流浏览器已经支持 Web Components 技术。关于 Web Components 的简介可参考 <http://www.ruanyifeng.com/blog/2019/08/web_components.html> 这篇博客。
 
 我们通过一个 hello world 示例来直观的看看 Web Components 的写法。
 
@@ -457,4 +457,4 @@ function renderTable(attrs, callback) {
 
 只需要这么一点代码就完成了最初 Layui 版本所实现的一样的功能，在封装时沿用并扩展了 Layui 表格的属性，使得兼容原有 Layui 的 api，注意在名称一列新增了 search 扩展属性，设置为 true 即将该字段自动加入到搜索表单中。
 
-文章中仅包含部分代码，上文中涉及的 Web Components 的全部代码请查看 https://github.com/lcomplete/TechShare/tree/master/docs/js/web_components 。注意这里面许多代码是根据项目实际情况进行封装的，为进行简化，全部组件的封装代码也并未给出，希望读者朋友能够领会组件化开发和 DRY 的编程思想。
+文章中仅包含部分代码，上文中涉及的 Web Components 的全部代码请查看 <https://github.com/lcomplete/TechShare/tree/master/docs/js/web_components> 。注意这里面许多代码是根据项目实际情况进行封装的，为进行简化，全部组件的封装代码也并未给出，希望读者朋友能够领会组件化开发和 DRY 的编程思想。

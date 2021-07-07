@@ -2,7 +2,7 @@
 
 [n8n](https://github.com/n8n-io/n8n) 是一个开源的工作流自动化工具，类似于 IFTTT。它的优点是开源、可以自托管、下载安装方便、易于使用，可以互联的服务包括 Github、Google、RSS、Slack、Telegram、Gitlab、Redis、RabbitMq、数据库等等上百种服务。使用 n8n 可以方便地实现当 A 条件发生，触发 B 服务这样的自动工作流程。
 
-![n8n](imgs/n8n-screenshot.png)
+![n8n](./imgs/n8n-screenshot.png)
 
 ## 安装使用
 
@@ -33,7 +33,7 @@ npx n8n
 
 ## 必备的几个常用工作流节点
 
-![n8n 节点](imgs/n8n_nodes.png)
+![n8n 节点](./imgs/n8n_nodes.png)
 
 n8n 拥有上百个工作流节点，许多节点你并不一定用的上，下面是一些常用的节点，我将简单介绍一下它们的作用。
 

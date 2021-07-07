@@ -1,4 +1,4 @@
-# 技术分享
+# lcomplete 的技术分享
 
 > 分享使你我都受益，何乐而不为也。但伏尔泰说过，图书馆是真理和谬误的宝库，所以仅是希望对你有益，若有谬误还望指出以更正。
 
@@ -11,7 +11,7 @@
 ## 近期更新
 
 * [2021-06-22] [[Java 开发实战] 高级工程师的自我修养之单元测试](docs/java/unit_test.md)
-* [2021-05-26] [[10 倍程序员系列] ⭐51W+ 的终端命令行工具助你成为 10 倍程序员](docs/10x/terminal.md)
+* [2021-05-26] [[10 倍程序员系列] ⭐51W+ 的终端命令行工具助你成为 10 倍程序员](docs/10x/trminal.md)
 * [2021-05-25] [[Java 开发实战] 5 分钟搞定 liquibase 数据库版本控制](docs/java/liquibase.md)
 * [2021-05-24] [万字长文带你彻底搞懂什么是 DevOps](docs/engineering/devops.md)
 * [2021-05-21] [使用开源工作流自动化工具 n8n 打造个人助理](docs/tools/n8n.md)
@@ -64,8 +64,8 @@
 
 ## 技术分享 PPT
 
-* [DevOps 原则与实践.pptx](docs/ppt/DevOps%20原则与实践.pptx)
-* [分布式系统开发-微服务基础设施架构.pptx](docs/java/分布式系统开发-微服务基础设施架构.pptx)
-* [敏捷开发修炼之道.pptx](docs/thinking/敏捷开发修炼之道.pptx)
-* [Java 单元测试.pptx](docs/java/java单元测试.pptx)
-* [MySQL 工作指南.pptx](docs/db/MySQL%20工作指南.pptx)
+* [DevOps 原则与实践.pptx](https://github.com/lcomplete/TechShare/blob/master/docs/ppt/DevOps%20%E5%8E%9F%E5%88%99%E4%B8%8E%E5%AE%9E%E8%B7%B5.pptx)
+* [分布式系统开发-微服务基础设施架构.pptx](https://github.com/lcomplete/TechShare/blob/master/docs/java/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E6%9E%B6%E6%9E%84.pptx)
+* [敏捷开发修炼之道.pptx](https://github.com/lcomplete/TechShare/blob/master/docs/thinking/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93.pptx)
+* [Java 单元测试.pptx](https://github.com/lcomplete/TechShare/blob/master/docs/java/java%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95.pptx)
+* [MySQL 工作指南.pptx](https://github.com/lcomplete/TechShare/blob/master/docs/db/MySQL%20%E5%B7%A5%E4%BD%9C%E6%8C%87%E5%8D%97.pptx)

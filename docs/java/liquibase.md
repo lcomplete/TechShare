@@ -66,7 +66,7 @@ spring.liquibase.contexts = dev
 
 首先看下文件的组织：
 
-![文件结构](liquibase/file_struct.png)
+![文件结构](./liquibase/file_struct.png)
 
 这是官方推荐的方式，使用发布版本号来组织数据库变更记录。
 
@@ -142,4 +142,4 @@ create table type_dict
 
 是不是很简单？当然在实际的项目过程中，还需要考虑 Liquibase 配置在流水线中如何运行，Liquibase 的代码仓库如何组织等问题，这些就留给读者朋友自己思考吧（其实是笔者比较懒，先不写了）。
 
-关于 Liquibase 的更多概念可以查看官方文档：https://docs.liquibase.com/concepts/home.html 。
+关于 Liquibase 的更多概念可以查看官方文档：<https://docs.liquibase.com/concepts/home.html> 。

@@ -12,8 +12,15 @@ Sessionx.vim
 
 # Temporary
 .netrwhist
+i
+oo
 *~
 # Auto-generated tag files
 tags
 # Persistent undo
 [._]*.un~
+
+node_modules
+dist
+manifest
+.temp
