@@ -25,7 +25,7 @@
 * [Java 工程师能力提升路径（一）：从业余到专业](docs/java/part_one_of_java_engineer_path.md)
 * [Java 学习大法](docs/java/java_study_way.md)
 * [[Java 开发实战] 5 分钟搞定 liquibase 数据库版本控制](docs/java/liquibase.md)
-* [[Java 开发实战] 高级工程师的自我修养之单元测试](docs/java/unit_test.md)
+* [[Java 开发实战] 高级工程师的自我修养之单元测试（一）：DAO 层测试](docs/java/unit_test.md)
 
 ## 软件工程
 
