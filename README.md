@@ -15,7 +15,7 @@
 * [2021-05-25] [[Java 开发实战] 5 分钟搞定 liquibase 数据库版本控制](docs/java/liquibase.md)
 * [2021-05-24] [万字长文带你彻底搞懂什么是 DevOps](docs/engineering/devops.md)
 * [2021-05-21] [使用开源工作流自动化工具 n8n 打造个人助理](docs/tools/n8n.md)
-* [2021-05-21] [DevOps 原则与实践.pptx](docs/ppt/DevOps%20原则与实践.pptx)
+* [2021-05-21] [DevOps 原则与实践.pptx](https://github.com/lcomplete/TechShare/blob/master/docs/ppt/DevOps%20%E5%8E%9F%E5%88%99%E4%B8%8E%E5%AE%9E%E8%B7%B5.pptx)
 * [2021-05-12] [研发质量与效率的绩效指标设计](docs/thinking/coder_kpi.md)
 * [2021-05-06] [使用 lit 编写 Web Components 简化 Layui 代码](docs/js/lit_layui.md)
 

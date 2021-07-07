@@ -14,5 +14,5 @@
 
 ## 企业级项目中的单元测试
 
-关于编写单元测试的一些基础知识，我在这篇 [Java 单元测试](java单元测试.pptx) PPT 中有过介绍，本文就不再讲解基础知识，而主要结合项目场景来讲一讲。
+关于编写单元测试的一些基础知识，我在这篇 [Java 单元测试](https://github.com/lcomplete/TechShare/blob/master/docs/java/java%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95.pptx) PPT 中有过介绍，本文就不再讲解基础知识，而主要结合项目场景来讲一讲。
 
