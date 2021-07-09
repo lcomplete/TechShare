@@ -38,9 +38,10 @@ module.exports = {
         children: [
           "/docs/java/俯瞰Java服务端开发",
           "/docs/java/part_one_of_java_engineer_path",
-          "/docs/java/java_study_way.md",
+          "/docs/java/java_study_way",
           "/docs/java/liquibase",
           "/docs/java/unit_test",
+          "/docs/java/api_error_handling",
         ],
       },
       {

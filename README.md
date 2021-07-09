@@ -10,9 +10,10 @@
 
 ## 近期更新
 
-* [2021-07-07] [[Java 开发实战] 高级工程师的自我修养之单元测试（一）：DAO 层测试](docs/java/unit_test.md)
-* [2021-05-26] [[10 倍程序员系列] ⭐51W+ 的终端命令行工具助你成为 10 倍程序员](docs/10x/trminal.md)
-* [2021-05-25] [[Java 开发实战] 5 分钟搞定 liquibase 数据库版本控制](docs/java/liquibase.md)
+* [2021-07-07] [\[Java 开发实战\] 你还在统一返回 ApiResultBean 吗？✋ duck 不必，快来看 API 错误处理的最佳实践 ✔️](docs/java/api_error_handling.md)
+* [2021-07-07] [\[Java 开发实战\] 高级工程师的自我修养之单元测试（一）：DAO 层测试](docs/java/unit_test.md)
+* [2021-05-26] [\[10 倍程序员系列\] ⭐51W+ 的终端命令行工具助你成为 10 倍程序员](docs/10x/trminal.md)
+* [2021-05-25] [\[Java 开发实战\] 5 分钟搞定 liquibase 数据库版本控制](docs/java/liquibase.md)
 * [2021-05-24] [万字长文带你彻底搞懂什么是 DevOps](docs/engineering/devops.md)
 * [2021-05-21] [使用开源工作流自动化工具 n8n 打造个人助理](docs/tools/n8n.md)
 * [2021-05-21] [DevOps 原则与实践.pptx](https://github.com/lcomplete/TechShare/blob/master/docs/ppt/DevOps%20%E5%8E%9F%E5%88%99%E4%B8%8E%E5%AE%9E%E8%B7%B5.pptx)
@@ -24,8 +25,9 @@
 * [俯瞰 Java 服务端开发](docs/java/俯瞰Java服务端开发.md)
 * [Java 工程师能力提升路径（一）：从业余到专业](docs/java/part_one_of_java_engineer_path.md)
 * [Java 学习大法](docs/java/java_study_way.md)
-* [[Java 开发实战] 5 分钟搞定 liquibase 数据库版本控制](docs/java/liquibase.md)
-* [[Java 开发实战] 高级工程师的自我修养之单元测试（一）：DAO 层测试](docs/java/unit_test.md)
+* [\[Java 开发实战\] 5 分钟搞定 liquibase 数据库版本控制](docs/java/liquibase.md)
+* [\[Java 开发实战\] 高级工程师的自我修养之单元测试（一）：DAO 层测试](docs/java/unit_test.md)
+* [\[Java 开发实战\] 你还在统一返回 ApiResultBean 吗？✋ duck 不必，快来看 API 错误处理的最佳实践 ✔️](docs/java/api_error_handling.md)
 
 ## 软件工程
 
@@ -58,7 +60,7 @@
 
 > 懒惰是程序员的美德，提升开发效率，残酷无情地推动自动化吧！
 
-* [[10 倍程序员系列] ⭐51W+ 的终端命令行工具助你成为 10 倍程序员](docs/10x/terminal.md)
+* [\[10 倍程序员系列\] ⭐51W+ 的终端命令行工具助你成为 10 倍程序员](docs/10x/terminal.md)
 * [效率工具箱](docs/tools/我的效率工具箱.md)
 * [使用开源工作流自动化工具 n8n 打造个人助理](docs/tools/n8n.md)
 
