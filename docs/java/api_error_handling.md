@@ -144,7 +144,7 @@ public class ErrorDetail implements Serializable {
 
 异常使用 `AOP` 的方式来处理。
 
-编写一个 `ControllerAdvice` 类，。
+编写一个 `ControllerAdvice` 类。
 
 ```java
 @ControllerAdvice
