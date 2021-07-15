@@ -25,8 +25,12 @@ public class ApiResult<T> implements Serializable {
 
 存在的问题：
 
-1. 在统一返回 ApiResult 的情况下，即使是正常返回，也会带上 code、message 属性，属于冗余。
-2. `Controller` 层代码存在重复，返回对象重复定义、包装调用编写重复。
+1. 在统一返回 ApiResult 的情况下，即使是正常返回，也会带上 code、message 属性，`多数情况` 下属于 `冗余` 。
+2. `Controller` 层代码存在重复，返回对象重复定义、包装调用编写重复，`代码整洁度下降` 。
+3. 统一返回 200 状态码不利于 `请求监控` 。
+4. ApiResult 同时承担了Api结果和错误结果的职责，不符合 `单一职责` 原则。
+
+像下面这样一段获取列表数据的代码，若不涉及业务预期内的请求验证，是没必要包装一层 ApiResult 的，什么是业务预期内的验证呢，举个例子，比如非会员无法获取列表，业务上需要提醒用户购买会员，这属于合法请求，此时仍然可以使用 ApiResult 携带 code 明确返回给客户端。
 
 ```java
 public ApiResult<List<Data>> demo() {
@@ -34,7 +38,9 @@ public ApiResult<List<Data>> demo() {
 }
 ```
 
-当 API 越来越多时，这些存在的问题会被被放大，如何解决这些问题呢？请接着看。
+ApiResult 要根据业务场景使用，不需要每个场景都使用它。
+
+当 API 越来越多时，统一返回 ApiResult 的问题会被放大，如何解决这些问题呢？请接着看。
 
 ## 使用 HTTP 状态码
 
