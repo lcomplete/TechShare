@@ -79,6 +79,7 @@ module.exports = {
         title: "效率",
         collapsable: false,
         children: [
+          "/docs/10x/script",
           "/docs/10x/terminal",
           "/docs/tools/我的效率工具箱",
           "/docs/tools/n8n",
