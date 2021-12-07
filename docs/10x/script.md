@@ -195,7 +195,7 @@ rabbitmq 上有消息队列转发的插件，但如果是云服务，通常无�
 ```py
 import pika
 
-connection = pika.BlockingConnection(pika.ConnectionParameters(host='ip', port=5672, virtual_host='/',                                 credentials=pika.PlainCredentials('account','password')))
+connection = pika.BlockingConnection(pika.ConnectionParameters(host='ip', port=5672, virtual_host='/', credentials=pika.PlainCredentials('account','password')))
 
 channel = connection.channel()
 
