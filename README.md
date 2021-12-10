@@ -31,9 +31,9 @@
 
 ## .NET
 
-* [.NET 中文分词组件](https://github.com/lcomplete/WordSegmentation){:target="_blank"}
-* [使用 C# 编写简易 ASP.NET Web 服务器](https://lcomplete.github.io/blog/2013/07/16/use-csharp-write-aspnet-web-server/){:target="_blank"}
-* [大型 ASP.NET 应用中常用的开源项目](https://lcomplete.github.io/blog/2013/09/22/asp-dot-net-common-open-source-project/){:target="_blank"}
+* <a href="https://github.com/lcomplete/WordSegmentation" target="_blank">.NET 中文分词组件</a>
+* <a href="https://lcomplete.github.io/blog/2013/07/16/use-csharp-write-aspnet-web-server/" target="_blank">使用 C# 编写简易 ASP.NET Web 服务器</a>
+* <a href="https://lcomplete.github.io/blog/2013/09/22/asp-dot-net-common-open-source-project" target="_blank">大型 ASP.NET 应用中常用的开源项目</a>
 
 ## 软件工程
 
