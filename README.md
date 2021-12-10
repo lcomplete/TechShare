@@ -29,6 +29,12 @@
 * [\[Java 开发实战\] 高级工程师的自我修养之单元测试（一）：DAO 层测试](docs/java/unit_test.md)
 * [\[Java 开发实战\] 你还在统一返回 ApiResultBean 吗？✋ duck 不必，快来看 API 错误处理的最佳实践 ✔️](docs/java/api_error_handling.md)
 
+## .NET
+
+* [.NET 中文分词组件](https://github.com/lcomplete/WordSegmentation){:target="_blank"}
+* [使用 C# 编写简易 ASP.NET Web 服务器](https://lcomplete.github.io/blog/2013/07/16/use-csharp-write-aspnet-web-server/){:target="_blank"}
+* [大型 ASP.NET 应用中常用的开源项目](https://lcomplete.github.io/blog/2013/09/22/asp-dot-net-common-open-source-project/){:target="_blank"}
+
 ## 软件工程
 
 * [万字长文带你彻底搞懂什么是 DevOps](docs/engineering/devops.md)
