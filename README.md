@@ -9,6 +9,8 @@
 * [计算机编程：自底向上方法](docs/world/自底向上方法.md)  -->
 
 ## 近期更新
+
+* [2021-12-15] [网站项目 Git 使用流程和规范](docs/engineering/gitflow.md)
 * [2021-12-07] [\[10 倍程序员系列\] ⭐脚本的魅力，内含 js 写爬虫、python 骚操作等实用代码](docs/10x/script.md)
 * [2021-07-09] [\[Java 开发实战\] 你还在统一返回 ApiResultBean 吗？✋ duck 不必，快来看 API 错误处理的最佳实践 ✔️](docs/java/api_error_handling.md)
 * [2021-07-07] [\[Java 开发实战\] 高级工程师的自我修养之单元测试（一）：DAO 层测试](docs/java/unit_test.md)
@@ -37,6 +39,7 @@
 
 ## 软件工程
 
+* [网站项目 Git 使用流程和规范](docs/engineering/gitflow.md)
 * [万字长文带你彻底搞懂什么是 DevOps](docs/engineering/devops.md)
 
 ## Javascript

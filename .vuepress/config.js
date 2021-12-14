@@ -49,6 +49,7 @@ module.exports = {
         collapsable: false,
         children: [
           "/docs/engineering/devops",
+          "/docs/engineering/gitflow",
         ],
       }, 
       {
