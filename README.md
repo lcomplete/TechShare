@@ -10,11 +10,12 @@
 
 ## 近期更新
 
+* [2021-12-15] [Java Spring 项目开发最佳实践](docs/java/spring_best_practice.md)
 * [2021-12-15] [网站项目 Git 使用流程和规范](docs/engineering/gitflow.md)
-* [2021-12-07] [\[10 倍程序员系列\] ⭐脚本的魅力，内含 js 写爬虫、python 骚操作等实用代码](docs/10x/script.md)
+* [2021-12-07] [\[10 倍程序员\] ⭐脚本的魅力，内含 js 写爬虫、python 骚操作等实用代码](docs/10x/script.md)
 * [2021-07-09] [\[Java 开发实战\] 你还在统一返回 ApiResultBean 吗？✋ duck 不必，快来看 API 错误处理的最佳实践 ✔️](docs/java/api_error_handling.md)
 * [2021-07-07] [\[Java 开发实战\] 高级工程师的自我修养之单元测试（一）：DAO 层测试](docs/java/unit_test.md)
-* [2021-05-26] [\[10 倍程序员系列\] ⭐51W+ 的终端命令行工具助你成为 10 倍程序员](docs/10x/terminal.md)
+* [2021-05-26] [\[10 倍程序员\] ⭐51W+ 的终端命令行工具助你成为 10 倍程序员](docs/10x/terminal.md)
 * [2021-05-25] [\[Java 开发实战\] 5 分钟搞定 liquibase 数据库版本控制](docs/java/liquibase.md)
 * [2021-05-24] [万字长文带你彻底搞懂什么是 DevOps](docs/engineering/devops.md)
 * [2021-05-21] [使用开源工作流自动化工具 n8n 打造个人助理](docs/tools/n8n.md)
@@ -30,6 +31,7 @@
 * [\[Java 开发实战\] 5 分钟搞定 liquibase 数据库版本控制](docs/java/liquibase.md)
 * [\[Java 开发实战\] 高级工程师的自我修养之单元测试（一）：DAO 层测试](docs/java/unit_test.md)
 * [\[Java 开发实战\] 你还在统一返回 ApiResultBean 吗？✋ duck 不必，快来看 API 错误处理的最佳实践 ✔️](docs/java/api_error_handling.md)
+* [Java Spring 项目开发最佳实践](docs/java/spring_best_practice.md)
 
 ## .NET
 
@@ -69,8 +71,8 @@
 
 > 懒惰是程序员的美德，提升开发效率，残酷无情地推动自动化吧！
 
-* [\[10 倍程序员系列\] ⭐脚本的魅力，内含 js 写爬虫、python 骚操作等实用代码](docs/10x/script.md)
-* [\[10 倍程序员系列\] ⭐51W+ 的终端命令行工具助你成为 10 倍程序员](docs/10x/terminal.md)
+* [\[10 倍程序员\] ⭐脚本的魅力，内含 js 写爬虫、python 骚操作等实用代码](docs/10x/script.md)
+* [\[10 倍程序员\] ⭐51W+ 的终端命令行工具助你成为 10 倍程序员](docs/10x/terminal.md)
 * [效率工具箱](docs/tools/我的效率工具箱.md)
 * [使用开源工作流自动化工具 n8n 打造个人助理](docs/tools/n8n.md)
 

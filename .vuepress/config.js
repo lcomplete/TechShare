@@ -42,6 +42,7 @@ module.exports = {
           "/docs/java/liquibase",
           "/docs/java/unit_test",
           "/docs/java/api_error_handling",
+          "/docs/java/spring_best_practice",
         ],
       },
       {
