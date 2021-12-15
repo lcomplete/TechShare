@@ -46,6 +46,13 @@ module.exports = {
         ],
       },
       {
+        title: "数据库",
+        collapsable: false,
+        children: [
+          "/docs/db/mysql_standard"
+        ],
+      },
+      {
         title: "软件工程",
         collapsable: false,
         children: [

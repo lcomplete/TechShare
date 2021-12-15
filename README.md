@@ -10,6 +10,7 @@
 
 ## 近期更新
 
+* [2021-12-15] [MySQL 数据库开发规范](docs/db/mysql_standard.md)
 * [2021-12-15] [Java Spring 项目开发最佳实践](docs/java/spring_best_practice.md)
 * [2021-12-15] [网站项目 Git 使用流程和规范](docs/engineering/gitflow.md)
 * [2021-12-07] [\[10 倍程序员\] ⭐脚本的魅力，内含 js 写爬虫、python 骚操作等实用代码](docs/10x/script.md)
@@ -33,16 +34,14 @@
 * [\[Java 开发实战\] 你还在统一返回 ApiResultBean 吗？✋ duck 不必，快来看 API 错误处理的最佳实践 ✔️](docs/java/api_error_handling.md)
 * [Java Spring 项目开发最佳实践](docs/java/spring_best_practice.md)
 
-## .NET
+## 数据库
 
-* [.NET 中文分词组件](https://github.com/lcomplete/WordSegmentation)
-* [使用 C# 编写简易 ASP.NET Web 服务器](https://lcomplete.github.io/blog/2013/07/16/use-csharp-write-aspnet-web-server/)
-* [大型 ASP.NET 应用中常用的开源项目](https://lcomplete.github.io/blog/2013/09/22/asp-dot-net-common-open-source-project/)
+* [MySQL 数据库开发规范](docs/db/mysql_standard.md)
 
 ## 软件工程
 
-* [网站项目 Git 使用流程和规范](docs/engineering/gitflow.md)
 * [万字长文带你彻底搞懂什么是 DevOps](docs/engineering/devops.md)
+* [网站项目 Git 使用流程和规范](docs/engineering/gitflow.md)
 
 ## Javascript
 
@@ -57,8 +56,6 @@
 * [研发质量与效率的绩效指标设计](docs/thinking/coder_kpi.md)
 
 <!-- ## 架构 -->
-
-<!-- ## 数据库 -->
 
 ## 编程语言
 
@@ -75,6 +72,12 @@
 * [\[10 倍程序员\] ⭐51W+ 的终端命令行工具助你成为 10 倍程序员](docs/10x/terminal.md)
 * [效率工具箱](docs/tools/我的效率工具箱.md)
 * [使用开源工作流自动化工具 n8n 打造个人助理](docs/tools/n8n.md)
+
+## .NET
+
+* [.NET 中文分词组件](https://github.com/lcomplete/WordSegmentation)
+* [使用 C# 编写简易 ASP.NET Web 服务器](https://lcomplete.github.io/blog/2013/07/16/use-csharp-write-aspnet-web-server/)
+* [大型 ASP.NET 应用中常用的开源项目](https://lcomplete.github.io/blog/2013/09/22/asp-dot-net-common-open-source-project/)
 
 ## 技术分享 PPT
 
