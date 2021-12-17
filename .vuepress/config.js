@@ -74,6 +74,7 @@ module.exports = {
           "/docs/thinking/编码的道与禅",
           "/docs/thinking/程序员的职业素养",
           "/docs/thinking/coder_kpi",
+          "/docs/thinking/quotes",
         ],
       }, 
       {

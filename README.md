@@ -54,6 +54,7 @@
 * [编码的道与禅](docs/thinking/编码的道与禅.md)
 * [程序员的职业素养](docs/thinking/程序员的职业素养.md)
 * [研发质量与效率的绩效指标设计](docs/thinking/coder_kpi.md)
+* [编程界的 51 条名言佳句](docs/thinking/quotes.md)
 
 <!-- ## 架构 -->
 
