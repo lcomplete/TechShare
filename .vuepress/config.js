@@ -64,6 +64,7 @@ module.exports = {
         title: "Javascript",
         collapsable: false,
         children: [
+          "/docs/js/remotion",
           "/docs/js/lit_layui",
         ],
       },

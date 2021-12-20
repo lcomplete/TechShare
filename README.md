@@ -10,6 +10,7 @@
 
 ## 近期更新
 
+* [2021-12-20] [会写 JS 就会做视频，将圣诞快乐 PSD 文件自动做成动画视频](docs/js/remotion.md)
 * [2021-12-15] [MySQL 数据库开发规范](docs/db/mysql_standard.md)
 * [2021-12-15] [Java Spring 项目开发最佳实践](docs/java/spring_best_practice.md)
 * [2021-12-15] [网站项目 Git 使用流程和规范](docs/engineering/gitflow.md)
@@ -45,6 +46,7 @@
 
 ## Javascript
 
+* [会写 JS 就会做视频，将圣诞快乐 PSD 文件自动做成动画视频](docs/js/remotion.md)
 * [使用 lit 编写 Web Components 简化 Layui 代码](docs/js/lit_layui.md)
 
 ## 编程人生
