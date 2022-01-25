@@ -33,6 +33,13 @@ module.exports = {
         path: "/SUMMARY.md",
       },
       {
+        title: "TechLetter",
+        collapsable: false,
+        children: [
+          "/docs/letter/001",
+        ],
+      },
+      {
         title: "Java",
         collapsable: false,
         children: [

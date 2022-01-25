@@ -10,6 +10,10 @@
 
 ## 近期更新
 
+* [2022-01-25] [001 tech letter 每周分享（低代码、信息管理）](docs/letter/001.md)
+
+-----
+
 * [2021-12-20] [🎄 使用 React 制作视频，让圣诞快乐 PSD 自动生成动画视频](docs/js/remotion.md)
 * [2021-12-15] [MySQL 数据库开发规范](docs/db/mysql_standard.md)
 * [2021-12-15] [Java Spring 项目开发最佳实践](docs/java/spring_best_practice.md)
@@ -84,6 +88,7 @@
 
 ## 技术分享 PPT
 
+* [大数据开发初探.pptx](https://github.com/lcomplete/TechShare/blob/master/docs/ppt/大数据开发初探.pptx)
 * [DevOps 原则与实践.pptx](https://github.com/lcomplete/TechShare/blob/master/docs/ppt/DevOps%20%E5%8E%9F%E5%88%99%E4%B8%8E%E5%AE%9E%E8%B7%B5.pptx)
 * [分布式系统开发-微服务基础设施架构.pptx](https://github.com/lcomplete/TechShare/blob/master/docs/java/%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F%E5%BC%80%E5%8F%91-%E5%BE%AE%E6%9C%8D%E5%8A%A1%E5%9F%BA%E7%A1%80%E8%AE%BE%E6%96%BD%E6%9E%B6%E6%9E%84.pptx)
 * [敏捷开发修炼之道.pptx](https://github.com/lcomplete/TechShare/blob/master/docs/thinking/%E6%95%8F%E6%8D%B7%E5%BC%80%E5%8F%91%E4%BF%AE%E7%82%BC%E4%B9%8B%E9%81%93.pptx)
