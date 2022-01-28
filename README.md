@@ -10,8 +10,8 @@
 
 ## 近期更新
 
-* [2022-01-25] [001 tech letter 每周分享（低代码、信息管理）](docs/letter/001.md)
 * [2022-01-28] [002 tech letter 每周分享（Web 3.0、关于好品味的商业模式）](docs/letter/002.md)
+* [2022-01-25] [001 tech letter 每周分享（低代码、信息管理）](docs/letter/001.md)
 
 -----
 
