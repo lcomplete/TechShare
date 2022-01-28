@@ -37,6 +37,7 @@ module.exports = {
         collapsable: false,
         children: [
           "/docs/letter/001",
+          "/docs/letter/002",
         ],
       },
       {
