@@ -38,6 +38,7 @@ module.exports = {
         children: [
           "/docs/letter/001",
           "/docs/letter/002",
+          "/docs/letter/003",
         ],
       },
       {
