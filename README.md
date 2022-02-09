@@ -10,6 +10,7 @@
 
 ## 近期更新
 
+* [2022-02-09] [004 备受程序员喜爱的暗黑主题、英语不够用了、newsletter 资源分享](docs/letter/004.md)
 * [2022-02-06] [003 tech letter 每周分享（wasmCloud、反脆弱）](docs/letter/003.md)
 * [2022-01-28] [002 tech letter 每周分享（Web 3.0、关于好品味的商业模式）](docs/letter/002.md)
 * [2022-01-25] [001 tech letter 每周分享（低代码、信息管理）](docs/letter/001.md)
@@ -36,6 +37,7 @@
 * [001 tech letter 每周分享（低代码、信息管理）](docs/letter/001.md)
 * [002 tech letter 每周分享（Web 3.0、关于好品味的商业模式）](docs/letter/002.md)
 * [003 tech letter 每周分享（wasmCloud、反脆弱）](docs/letter/003.md)
+* [004 备受程序员喜爱的暗黑主题、英语不够用了、newsletter 资源分享](docs/letter/004.md)
 
 ## Java
 
