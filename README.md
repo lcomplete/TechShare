@@ -2,6 +2,9 @@
 
 > 分享使你我都受益，何乐而不为也。但伏尔泰说过，图书馆是真理和谬误的宝库，所以仅是希望对你有益，若有谬误还望指出以更正。
 
+- 📧 我的 Newsletter，每周一篇：[野生架构师](https://www.getrevue.co/profile/lcomplete)
+- 📘 我的待阅读书签，可从中发现优质文章：[To Read / Raindrop.io](https://raindrop.io/lcomplete/to-read-23073692)
+
 <!-- ## Hello World
 
 > 打开计算机编程这扇大门。
