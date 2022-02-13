@@ -13,6 +13,7 @@
 
 ## 近期更新
 
+* [2022-02-13] [005 IFTTT 和 Zapier 使用对比、最好的效率系统、投入产出比最高的 3 件事](docs/letter/005.md)
 * [2022-02-09] [004 备受程序员喜爱的暗黑主题、程序员的英语有多重要、Newsletter 资源分享](docs/letter/004.md)
 * [2022-02-06] [003 tech letter 每周分享（wasmCloud、反脆弱）](docs/letter/003.md)
 * [2022-01-28] [002 tech letter 每周分享（Web 3.0、关于好品味的商业模式）](docs/letter/002.md)
@@ -24,6 +25,7 @@
 * [002 tech letter 每周分享（Web 3.0、关于好品味的商业模式）](docs/letter/002.md)
 * [003 tech letter 每周分享（wasmCloud、反脆弱）](docs/letter/003.md)
 * [004 备受程序员喜爱的暗黑主题、程序员的英语有多重要、Newsletter 资源分享](docs/letter/004.md)
+* [005 IFTTT 和 Zapier 使用对比、最好的效率系统、投入产出比最高的 3 件事](docs/letter/005.md)
 
 ## Java
 

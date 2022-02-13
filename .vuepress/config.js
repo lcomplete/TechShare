@@ -33,13 +33,14 @@ module.exports = {
         path: "/SUMMARY.md",
       },
       {
-        title: "TechLetter",
+        title: "野生架构师周刊",
         collapsable: false,
         children: [
           "/docs/letter/001",
           "/docs/letter/002",
           "/docs/letter/003",
           "/docs/letter/004",
+          "/docs/letter/005",
         ],
       },
       {
