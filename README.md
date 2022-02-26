@@ -14,6 +14,7 @@
 
 ## 近期更新
 
+- [2022-02-26] [008 📚 Notion vs Obsidian、程序设计 vs 软件工程](docs/letter/008.md)
 - [2022-02-17] [007 🍀 十年后重新使用 RSS 给我带来的巨变](docs/letter/007.md)
 - [2022-02-16] [006 📒 与人保持联系的系统、用低代码应用设计产品原型、万能锤](docs/letter/006.md)
 - [2022-02-13] [005 IFTTT 和 Zapier 使用对比、最好的效率系统、投入产出比最高的 3 件事](docs/letter/005.md)
@@ -31,6 +32,7 @@
 - [005 IFTTT 和 Zapier 使用对比、最好的效率系统、投入产出比最高的 3 件事](docs/letter/005.md)
 - [006 📒 与人保持联系的系统、用低代码应用设计产品原型、万能锤](docs/letter/006.md)
 - [007 🍀 十年后重新使用 RSS 给我带来的巨变](docs/letter/007.md)
+- [008 📚 Notion vs Obsidian、程序设计 vs 软件工程](docs/letter/008.md)
 
 ## Java
 
