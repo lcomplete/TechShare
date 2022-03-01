@@ -4,7 +4,7 @@
 
 - 🐦 我的 Twitter，分享效率方法 🪄、优质文章 📑、编程知识 🎹、实用工具 🛠️：[lcomplete](https://twitter.com/lcomplete_wild)
 - 📧 我的 Newsletter，每周一篇：[野生架构师](https://www.getrevue.co/profile/lcomplete)
-- 📘 我的待阅读书签，可从中发现优质文章：[To Read / Raindrop.io](https://raindrop.io/lcomplete/to-read-23073692)
+- 📘 我收藏的文章，可从中发现优质内容：[Favorites / Raindrop.io](https://raindrop.io/lcomplete/favorites-23073692)
 
 <!-- ## Hello World
 
