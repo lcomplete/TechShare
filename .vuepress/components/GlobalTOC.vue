@@ -98,7 +98,8 @@
         }
       },
       getLinks: function (page) {
-        return (page.readingTime && page.readingTime.words > 100) ? "/TechShare" + page.path : null
+        //return (page.readingTime && page.readingTime.words > 100) ? "/TechShare" + page.path : null
+        return (page.readingTime && page.readingTime.words > 100) ? page.path : null
       },
       getUpdate: function (page) {
         let lastDay = new moment(page.lastUpdated, 'L');
