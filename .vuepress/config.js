@@ -24,7 +24,12 @@ module.exports = {
   // 其它配置
   themeConfig: {
     // repo: 'lcomplete/TechShare',
-    nav: [{ text: "GitHub", link: "https://github.com/lcomplete/TechShare" }],
+    nav: [
+      { text: "博客", link: "https://codelc.com/" },
+      { text: "推特", link: "https://twitter.com/lcomplete_wild" },
+      { text: "订阅周刊", link: "https://www.getrevue.co/profile/lcomplete" },
+      { text: "GitHub", link: "https://github.com/lcomplete/TechShare" },
+    ],
     lastUpdated: '最后更新',
     sidebar: [
       {
