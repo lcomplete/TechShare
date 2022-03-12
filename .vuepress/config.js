@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/TechShare/",
+  base: "/",
   title: "lcomplete 的技术分享",
   description:
     "分享Java、.NET、Javascript、效率、软件工程、编程语言等技术知识。",
