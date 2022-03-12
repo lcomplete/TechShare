@@ -50,6 +50,7 @@ module.exports = {
           "/docs/letter/007",
           "/docs/letter/008",
           "/docs/letter/009",
+          "/docs/letter/010",
         ],
       },
       {

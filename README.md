@@ -23,6 +23,7 @@
 - [007 🍀 十年后重新使用 RSS 给我带来的巨变](docs/letter/007.md)
 - [008 📚 Notion vs Obsidian、程序设计 vs 软件工程](docs/letter/008.md)
 - [009 🌈 Newsletter Of Newsletter、海绵宝宝的智慧](docs/letter/009.md)
+- [010 🚀 Hacking The Mind / 拆掉思维里的墙、放飞想象、打破规则](docs/letter/010.md)
 
 ## Java
 
