@@ -1,14 +1,14 @@
-# 🎄 使用 React 制作视频，让圣诞快乐 PSD 自动生成动画视频
+# 🎄 [React] 使用 remotion 制作视频，让圣诞快乐 PSD 动起来
 
 ## PSD 自动生成动画视频
 
 话不多说，先看效果。
 
-效果1：
+效果 1：
 
 ![merryc-s.gif](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e895654e94824a2a9302a0e8389ae2c0~tplv-k3u1fbpfcp-watermark.image?)
 
-效果2：
+效果 2：
 
 ![merryc1-s.gif](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5f9f96a190604d5783f0380713319825~tplv-k3u1fbpfcp-watermark.image?)
 
@@ -26,10 +26,8 @@ remotion 背后的核心概念是，只要提供一个当前帧 `currentFrame` �
 
 ```ts
 import { useCurrentFrame } from "remotion";
- 
 export const MyVideo = () => {
   const frame = useCurrentFrame();
- 
   return (
     <div style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       The current frame is {frame}.
@@ -44,10 +42,8 @@ export const MyVideo = () => {
 
 ```ts
 import { useVideoConfig } from "remotion";
- 
 export const MyVideo = () => {
   const { fps, durationInFrames, width, height } = useVideoConfig();
- 
   return (
     <div style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       This video is {durationInFrames / fps} seconds long.

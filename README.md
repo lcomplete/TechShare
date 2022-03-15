@@ -46,7 +46,7 @@
 
 ## Javascript
 
-- [🎄 使用 React 制作视频，让圣诞快乐 PSD 自动生成动画视频](docs/js/remotion.md)
+- [🎄 [React] 使用 remotion 制作视频，让圣诞快乐 PSD 动起来](docs/js/remotion.md)
 - [使用 lit 编写 Web Components 简化 Layui 代码](docs/js/lit_layui.md)
 
 ## 编程人生
