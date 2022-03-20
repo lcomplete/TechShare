@@ -22,8 +22,9 @@
 - [006 📒 与人保持联系的系统、用低代码应用设计产品原型、万能锤](docs/letter/006.md)
 - [007 🍀 十年后重新使用 RSS 给我带来的巨变](docs/letter/007.md)
 - [008 📚 Notion vs Obsidian、程序设计 vs 软件工程](docs/letter/008.md)
-- [009 🌈 Newsletter Of Newsletter、海绵宝宝的智慧](docs/letter/009.md)
+- [009 🌈 Newsletter Of Newsletters、海绵宝宝的智慧](docs/letter/009.md)
 - [010 🚀 Hacking The Mind / 拆掉思维里的墙、放飞想象、打破规则](docs/letter/010.md)
+- [011 🖥 Browser = OS & 文章、工具、资源、言论](docs/letter/011.md)
 
 ## Java
 
