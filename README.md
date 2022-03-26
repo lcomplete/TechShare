@@ -25,6 +25,7 @@
 - [009 🌈 Newsletter Of Newsletters、海绵宝宝的智慧](docs/letter/009.md)
 - [010 🚀 Hacking The Mind / 拆掉思维里的墙、放飞想象、打破规则](docs/letter/010.md)
 - [011 🖼 Browser = OS 、文章、工具、资源、文摘、言论](docs/letter/011.md)
+- [012 📸 Old But Good / 经典永不褪色](docs/letter/012.md)
 
 ## Java
 
