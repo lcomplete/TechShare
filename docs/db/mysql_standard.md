@@ -285,5 +285,5 @@ create database db_name default character set utf8mb4;
 
 ## 五、流程规范
 
-1.  【强制】数据库的 scheme 变动，需要进行版本控制，对每个数据库建立专门的 liquibase 或 flway 项目进行 SQL 版本管理。
+1.  【强制】数据库的 scheme 变动，需要进行版本控制，对每个数据库建立专门的 liquibase 或 flyway 项目进行 SQL 版本管理。
 1.  【强制】在一个迭代中，开发阶段的第一个步骤为数据库设计，需要首先提交数据库版本控制代码的合并请求，合并通过后再进行接下来的功能开发。
