@@ -1,11 +1,68 @@
+// has some bug
+// const feed_options = {
+//   canonical_base: 'https://tech.codelc.com',
+
+//   feed_options:{
+//     copyright: 'All rights reserved 2021-present, lcomplete',
+//     author: {
+//       name: "lcomplete",
+//       email: "louchenabc@gmail.com",
+//       link: "https://codelc.com"
+//     }
+//   },
+
+//   count: 50,
+
+//   posts_directories: ['/docs/'],
+
+//   description_sources: [
+
+//     'frontmatter',
+//     'excerpt',
+
+//     // html paragraph regex
+//     /([\s\S]*)/i,
+
+//   ],
+
+
+//   image_sources: [
+
+//     'frontmatter',
+
+//     /!\[.*?\]\((.*?)\)/i,         // markdown image regex
+//     /<img.*?src=['"](.*?)['"]/i,  // html image regex
+
+//   ],
+
+// };
+
 module.exports = {
   base: "/",
   title: "lcomplete 的技术分享",
   description:
-    "分享Java、.NET、Javascript、效率、软件工程、编程语言等技术知识。",
+    "🌟 分享效率方法 🪄、优质文章 📑、编程知识 🎹、实用工具 🛠️ 和有趣内容 😄。💌 每周至少发送 1 篇 newsletter。",
+  head:[
+    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/assets/favicons/apple-touch-icon.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicons/favicon-32x32.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/assets/favicons/favicon-16x16.png"}],
+    ['link', { rel: "manifest", href: "/assets/favicons/site.webmanifest"}],
+    ['link', { rel: "shortcut icon", href: "/assets/favicons/favicon.ico"}],
+  ],
   plugins:[
     ['@vuepress/back-to-top'],
     require('./plugins/read-time'),
+    // [ 'feed', feed_options ]
+    [
+      'rss-feed',
+      {
+        username: 'lcomplete',
+        hostname: 'https://tech.codelc.com',
+        selector: '.content__default', // extract content to content:encoded
+        count: 50,
+        filter: (page) => /^docs/.test(page.relativePath) && page.frontmatter.title,
+      },
+    ],
   ],
   markdown: {
     anchor: {permalink: false},
@@ -25,9 +82,11 @@ module.exports = {
   themeConfig: {
     // repo: 'lcomplete/TechShare',
     nav: [
+      { text: "关于", link: "/about/" },
       { text: "博客", link: "https://codelc.com/" },
       { text: "推特", link: "https://twitter.com/lcomplete_wild" },
-      { text: "订阅周刊", link: "https://www.getrevue.co/profile/lcomplete" },
+      { text: "邮箱订阅", link: "http://weekly.codelc.com" },
+      { text: "RSS 订阅", link: "https://tech.codelc.com/rss.xml" },
       { text: "GitHub", link: "https://github.com/lcomplete/TechShare" },
     ],
     lastUpdated: '最后更新',

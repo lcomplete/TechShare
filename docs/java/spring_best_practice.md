@@ -1,3 +1,12 @@
+---
+layout: post
+title: "[Java] Spring 项目开发最佳实践"
+date: 2021-01-18T05:44:08+08:00
+comments: true
+tags: ["Java"]
+categories: ["技术"]
+---
+
 # Java Spring 项目开发最佳实践
 
 ## 零、前言

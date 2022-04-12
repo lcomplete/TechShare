@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Java 学习大法"
+date: 2020-12-25T05:44:08+08:00
+comments: true
+tags: ["Java"]
+categories: ["技术"]
+---
+
 # Java 学习大法
 
 # 零、前言

@@ -1,3 +1,12 @@
+---
+layout: post
+title: "[10 倍程序员] ⭐ 脚本的魅力，内含 js 写爬虫、python 骚操作等实用代码"
+date: 2021-12-07T05:44:08+08:00
+comments: true
+tags: ["shell", "javascript"]
+categories: ["技术"]
+---
+
 # [10 倍程序员] ⭐脚本的魅力，内含 js 写爬虫、python 骚操作等实用代码
 
 ## 零、内容简介

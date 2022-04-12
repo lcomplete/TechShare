@@ -1,3 +1,13 @@
+---
+title: "七周七语言之用 ruby 做点什么"
+date: 2013-05-25T15:50:08+08:00
+keywords: []
+description: ""
+tags: ["编程语言", "编程", "ruby"]
+categories: ["技术"]
+toc: false
+---
+
 # 一段简单的ruby爬虫代码
 > 每学一门语言，思维方式都会发生改变，编程语言亦是如此。
 

@@ -1,3 +1,12 @@
+---
+layout: post
+title: "MySQL 数据库开发规范"
+date: 2021-09-22T05:44:08+08:00
+comments: true
+tags: ["MySQL"]
+categories: ["技术"]
+---
+
 # MySQL 数据库开发规范
 
 ## 一、前言

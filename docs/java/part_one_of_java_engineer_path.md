@@ -1,3 +1,12 @@
+---
+layout: post
+title: "Java 工程师能力提升路径（一）：从业余到专业"
+date: 2020-09-28T05:44:08+08:00
+comments: true
+tags: ["Java"]
+categories: ["技术"]
+---
+
 # Java 工程师能力提升路径（一）：从业余到专业
 
 <!-- TOC -->

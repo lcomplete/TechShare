@@ -1,3 +1,12 @@
+---
+layout: post
+title: "[Java] 高级工程师的自我修养之单元测试（一）：DAO 层测试"
+date: 2021-07-08T05:44:08+08:00
+comments: true
+tags: ["Java"]
+categories: ["技术"]
+---
+
 # [Java 开发实战] 高级工程师的自我修养之单元测试（一）：DAO 层测试
 
 ## 开篇导读

@@ -1,3 +1,12 @@
+---
+layout: post
+title: "使用开源工作流自动化工具 n8n 打造个人助理"
+date: 2021-05-21T05:44:08+08:00
+comments: true
+tags: ["opensource", "自动化"]
+categories: ["技术"]
+---
+
 # 使用开源工作流自动化工具 n8n 打造个人助理
 
 [n8n](https://github.com/n8n-io/n8n) 是一个开源的工作流自动化工具，类似于 IFTTT。它的优点是开源、可以自托管、下载安装方便、易于使用，可以互联的服务包括 Github、Google、RSS、Slack、Telegram、Gitlab、Redis、RabbitMq、数据库等等上百种服务。使用 n8n 可以方便地实现当 A 条件发生，触发 B 服务这样的自动工作流程。

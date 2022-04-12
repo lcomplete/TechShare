@@ -1,3 +1,12 @@
+---
+layout: post
+title: "[Java] 5 分钟搞定 liquibase 数据库版本控制"
+date: 2021-05-25T05:44:08+08:00
+comments: true
+tags: ["Java"]
+categories: ["技术"]
+---
+
 # [Java 开发实战] 5 分钟搞定 liquibase 数据库版本控制
 
 Java 生态下的数据库版本控制工具有 Flyaway 和 Liquibase，两者具备相似的功能，但基本概念不太一样，本文不对两者进行比较，主要介绍使用 Liquibase 进行数据库版本控制。

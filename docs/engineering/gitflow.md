@@ -1,3 +1,12 @@
+---
+layout: post
+title: "网站项目 Git 使用流程和规范"
+date: 2020-12-09T05:44:08+08:00
+comments: true
+tags: ["Git"]
+categories: ["技术"]
+---
+
 # 网站项目 Git 使用流程和规范
 
 ## **零、前言**

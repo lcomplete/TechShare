@@ -1,3 +1,12 @@
+---
+layout: post
+title: "万字长文带你彻底搞懂什么是 DevOps"
+date: 2021-05-24T05:44:08+08:00
+comments: true
+tags: ["DevOps"]
+categories: ["技术"]
+---
+
 # 万字长文带你彻底搞懂什么是 DevOps
 
 DevOps 日渐成为研发人员耳熟能详的一个组合词，但什么是 DevOps，为什么 DevOps 对于互联网企业如此重要，真正将其思考透彻的人却不多，带着这些困惑，本文将带你一探 DevOps 的起源、原则和实践，让你搞清楚到底何为 DevOps。

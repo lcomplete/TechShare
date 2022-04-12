@@ -1,3 +1,13 @@
+---
+layout: post
+title: "编程界的 51 条名言佳句"
+date: 2021-12-17T05:44:08+08:00
+comments: true
+tags: ["编程"]
+categories: ["技术"]
+toc: false
+---
+
 # 编程界的 51 条名言佳句
 
 1. Beautiful is better than ugly.

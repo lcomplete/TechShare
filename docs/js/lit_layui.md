@@ -1,3 +1,12 @@
+---
+layout: post
+title: "[Javascript] 使用 lit 编写 Web Components 简化 Layui 代码"
+date: 2021-05-06T05:44:08+08:00
+comments: true
+tags: ["Javascript"]
+categories: ["技术"]
+---
+
 # 使用 lit 编写 Web Components 简化 Layui 代码
 
 # Layui 介绍
