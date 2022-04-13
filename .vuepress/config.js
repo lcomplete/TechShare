@@ -48,6 +48,8 @@ module.exports = {
     ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/assets/favicons/favicon-16x16.png" }],
     ['link', { rel: "manifest", href: "/assets/favicons/site.webmanifest" }],
     ['link', { rel: "shortcut icon", href: "/assets/favicons/favicon.ico" }],
+    ['link', { rel: "feed", href: "/rss.xml", type: "application/rss+xml", title: "lcomplete 的技术分享" }],
+    ['link', { rel: "alternate", href: "/rss.xml", type: "application/rss+xml", title: "lcomplete 的技术分享" }],
   ],
   plugins: [
     ['@vuepress/back-to-top'],
