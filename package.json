@@ -34,7 +34,9 @@
     "markdown-it-sup": "^1.0.0",
     "moment": "^2.29.2",
     "vuepress": "^1.8.2",
-    "vuepress-plugin-rss-feed": "^1.0.1"
+    "@vuepress/shared-utils": "^1.4.0",
+    "cheerio": "^1.0.0-rc.3",
+    "rss": "^1.2.2"
   },
   "dependencies": {
     "markdown-it-fontawesome": "^0.3.0"

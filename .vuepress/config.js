@@ -42,31 +42,31 @@ module.exports = {
   title: "lcomplete 的技术分享",
   description:
     "🌟 分享效率方法 🪄、优质文章 📑、编程知识 🎹、实用工具 🛠️ 和有趣内容 😄。💌 每周至少发送 1 篇 newsletter。",
-  head:[
-    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/assets/favicons/apple-touch-icon.png"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicons/favicon-32x32.png"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/assets/favicons/favicon-16x16.png"}],
-    ['link', { rel: "manifest", href: "/assets/favicons/site.webmanifest"}],
-    ['link', { rel: "shortcut icon", href: "/assets/favicons/favicon.ico"}],
+  head: [
+    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "/assets/favicons/apple-touch-icon.png" }],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "/assets/favicons/favicon-32x32.png" }],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "/assets/favicons/favicon-16x16.png" }],
+    ['link', { rel: "manifest", href: "/assets/favicons/site.webmanifest" }],
+    ['link', { rel: "shortcut icon", href: "/assets/favicons/favicon.ico" }],
   ],
-  plugins:[
+  plugins: [
     ['@vuepress/back-to-top'],
-    require('./plugins/read-time'),
-    // [ 'feed', feed_options ]
     [
-      'rss-feed',
+      require('./plugins/rss-feed'),
       {
         username: 'lcomplete',
         hostname: 'https://tech.codelc.com',
         selector: '.content__default', // extract content to content:encoded
         count: 50,
         filter: (page) => /^docs/.test(page.relativePath) && page.frontmatter.title,
-      },
+      }
     ],
+    require('./plugins/read-time'),
+    // [ 'feed', feed_options ]
   ],
   markdown: {
-    anchor: {permalink: false},
-    toc: {includeLevel: [2, 3]},
+    anchor: { permalink: false },
+    toc: { includeLevel: [2, 3] },
     extendMarkdown: md => {
       // md.use(require('markdown-it-mermaid').default);
       // md.use(require('markdown-it-sub'));
@@ -143,7 +143,7 @@ module.exports = {
           "/docs/engineering/devops",
           "/docs/engineering/gitflow",
         ],
-      }, 
+      },
       {
         title: "Javascript",
         collapsable: false,
@@ -161,7 +161,7 @@ module.exports = {
           "/docs/thinking/coder_kpi",
           "/docs/thinking/quotes",
         ],
-      }, 
+      },
       {
         title: "编程语言",
         collapsable: false,
@@ -169,7 +169,7 @@ module.exports = {
           "/docs/lang/使用prolog解决爱因斯坦斑马难题",
           "/docs/lang/一段简单的ruby爬虫代码",
         ],
-      }, 
+      },
       {
         title: "效率",
         collapsable: false,

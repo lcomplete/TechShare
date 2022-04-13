@@ -7896,15 +7896,6 @@ vuepress-plugin-container@^2.0.2:
     "@vuepress/shared-utils" "^1.2.0"
     markdown-it-container "^2.0.0"
 
-vuepress-plugin-rss-feed@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/vuepress-plugin-rss-feed/-/vuepress-plugin-rss-feed-1.0.1.tgz#d8a4ceb3eef9a5e435faaa819a416a2d553ed4b3"
-  integrity sha512-9a5yMU0EiNa+qFsgvZdDMDOUan7fLYqdoJTGumZRxEQY6gJoYlnNnPMK89Ww0/cSdTedYZ4JbZ5hDtvfp4AuNw==
-  dependencies:
-    "@vuepress/shared-utils" "^1.4.0"
-    cheerio "^1.0.0-rc.3"
-    rss "^1.2.2"
-
 vuepress-plugin-smooth-scroll@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-smooth-scroll/-/vuepress-plugin-smooth-scroll-0.0.3.tgz#6eff2d4c186cca917cc9f7df2b0af7de7c8c6438"
