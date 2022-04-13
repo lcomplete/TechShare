@@ -5,6 +5,7 @@ const moment = require('moment')
 const globalWords = {};
 
 module.exports = (options = {}) => ({
+    name:'read-time',
     extendPageData($page) {
         const {
             regularPath,

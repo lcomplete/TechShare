@@ -53,6 +53,7 @@ module.exports = {
   ],
   plugins: [
     ['@vuepress/back-to-top'],
+    [require('./plugins/read-time')],
     [
       require('./plugins/rss-feed'),
       {
@@ -63,7 +64,6 @@ module.exports = {
         filter: (page) => /^docs/.test(page.relativePath) && page.frontmatter.title,
       }
     ],
-    require('./plugins/read-time'),
     // [ 'feed', feed_options ]
   ],
   markdown: {

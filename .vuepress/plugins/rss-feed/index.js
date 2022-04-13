@@ -15,6 +15,7 @@ module.exports = (
   },
   ctx
 ) => ({
+	name:'rss-feed',
   async generated(pagePaths) {
     if (!ctx.isProd) {
       return
