@@ -4,10 +4,17 @@
         <description><![CDATA[🌟 分享效率方法 🪄、优质文章 📑、编程知识 🎹、实用工具 🛠️ 和有趣内容 😄。💌 每周至少发送 1 篇 newsletter。]]></description>
         <link>https://tech.codelc.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 23 Apr 2022 06:18:08 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 29 Apr 2022 09:23:21 GMT</lastBuildDate>
         <atom:link href="https://tech.codelc.com/rss.xml" rel="self" type="application/rss+xml"/>
         <copyright><![CDATA[lcomplete 2022]]></copyright>
         <language><![CDATA[zh-CN]]></language>
+        <item>
+            <title><![CDATA[018 🙊 Less Is More]]></title>
+            <link>https://tech.codelc.com/docs/letter/018.html</link>
+            <guid isPermaLink="true">https://tech.codelc.com/docs/letter/018.html</guid>
+            <pubDate>Fri, 29 Apr 2022 09:06:08 GMT</pubDate>
+            <content:encoded><![CDATA[ <p>欢迎打开第 018 期「野生架构师」周刊，这是由 &nbsp;<a href="https://twitter.com/lcomplete_wild" target="_blank" rel="noopener noreferrer">lcomplete<span> </span></a> 发送的 newsletter，本期的主题是「Less Is More」，另外还有 💻 开发资源、📖 推荐阅读、🕵 探索发现和 📜 精彩言论版块。</p> <p><img src="https://tech.codelc.com/assets/img/1651223829984.964fac66.png" alt="cover"></p> <h2 id="📝-本期主题-less-is-more">📝 本期主题：Less Is More</h2> <p>多数人的压力总是随着年龄一起增长，年纪大了，钱挣得比以前多，却感觉没有以前幸福了，这种事情比比皆是：<a href="https://macshuo.com/?p=1652" target="_blank" rel="noopener noreferrer">年薪百万的迷惘<span> </span></a>。</p> <p>在编程领域被许多人关注的 A 同学，梦想着跟「天才」 B 同学一样做出百万级用户量的产品，B 同学却常常觉得自己既无能又失败。</p> <p>与其迷惘或妄自菲薄，不如：</p> <ul><li>少一点欲望，多一点满足。</li> <li>少一点索取，多一点感恩。</li> <li>少一点关注，多一点专注。</li> <li>少一点输出，多一点输入。</li> <li>少一点计划，多一点行动。</li></ul> <h2 id="💻-开发资源">💻 开发资源</h2> <p>1、<a href="https://svelte.dev/blog/write-less-code" target="_blank" rel="noopener noreferrer">Write less code | Svelte<span> </span></a></p> <p>Svelte 通过编译的方式来消除样板代码，这提醒我们——可以通过多个层面来减少代码量，如：编译、生成、中间件等。</p> <p>以下这些方式同样重要：</p> <ul><li>做减法，删除不必要的功能。</li> <li><a href="https://tech.codelc.com/docs/java/%E4%BF%AF%E7%9E%B0Java%E6%9C%8D%E5%8A%A1%E7%AB%AF%E5%BC%80%E5%8F%91.html#%E5%8E%9F%E5%88%99" target="_blank" rel="noopener noreferrer">YAGNI<span> </span></a>，如无必要，勿增实体。</li> <li>DRY，高度抽象，提升代码的可重用性。</li></ul> <h2 id="📖-推荐阅读">📖 推荐阅读</h2> <p>1、<a href="https://macshuo.com/?p=1702" target="_blank" rel="noopener noreferrer">谁在制造问题？<span> </span></a></p> <p>有些问题怎么也找不到答案，因为问题本身就是错误的。</p> <h2 id="🔭-探索发现">🔭 探索发现</h2> <p>1、<a href="https://chrome.google.com/webstore/detail/news-feed-eradicator/fjcldmjmjhkklehbacihaiopjklihlgg" target="_blank" rel="noopener noreferrer">News Feed Eradicator<span> </span></a></p> <p>通过它可以限制主流社交网站的使用时间，触发限制后信息流将被替换为一段激励人心的名言。😇</p> <h2 id="📜-精彩言论">📜 精彩言论</h2> <blockquote><p>劳动节快乐。——劳动人民</p></blockquote> <hr> <p>2022-4-29</p> <p>Util next week,</p> <p>lcomplete</p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[017 🏅 成为职场优秀程序员的 5 个建议]]></title>
             <link>https://tech.codelc.com/docs/letter/017.html</link>
