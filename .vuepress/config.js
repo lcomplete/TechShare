@@ -102,6 +102,7 @@ module.exports = {
         title: "野生架构师周刊",
         collapsable: false,
         children: [
+          "/docs/letter/018",
           "/docs/letter/017",
           "/docs/letter/016_growup_01",
           "/docs/letter/015",
