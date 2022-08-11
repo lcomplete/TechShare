@@ -185,6 +185,7 @@ module.exports = {
           "/docs/10x/terminal",
           "/docs/tools/我的效率工具箱",
           "/docs/tools/n8n",
+          "/docs/tools/mac_win_chapter_1",
         ],
       },
     ],

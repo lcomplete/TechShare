@@ -84,6 +84,7 @@
 - [\[10 倍程序员\] ⭐51W+ 的终端命令行工具助你成为 10 倍程序员](docs/10x/terminal.md)
 - [效率工具箱](docs/tools/我的效率工具箱.md)
 - [使用开源工作流自动化工具 n8n 打造个人助理](docs/tools/n8n.md)
+- [我如何流畅地切换使用 Mac 和 Windows（一）](docs/tools/mac_win_chapter_1.md)
 
 ## .NET
 
