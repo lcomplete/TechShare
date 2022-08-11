@@ -142,7 +142,7 @@ Win 上使用 `AutoHotKey` 来进行快捷键设置，对应的功能与上面�
 部分配置：
 
 ```shell
-; ------- mac cmd key -------
+; ------- mac -------
 
 $!c::
  Send {Ctrl Down}{c}{Ctrl Up}
@@ -189,7 +189,7 @@ $!+Right::
 Return
 
 
-; ----- switch desktop ------
+; ----- display ------
 
 ~LButton & XButton1::send #^{Right}
 return
@@ -197,22 +197,28 @@ return
 ~LButton & XButton2::send #^{left}
 return
 
+;~MButton & RButton::send #^{Right}
+;return
+
+;~MButton & LButton::send #^{left}
+;return
+
 ; ------ vim -----
 
-^k::   ;; !->ctrl键   k->字母键k
+!k::   ;; !->alt   k->字母键k
 Send {Up}   ;;输入 上 键
 return
-^j::
+!j::
 Send {Down}
 return
-^h::
+!h::
 Send {Left}
 return
-^l::
+!l::
 Send {Right}
 return
 
-; --- 中文直角引号 ---
+; // 中文直角引号
 
 !+[::send,{U+300C}            ;// alt + shift + [  转换为「
 !+]::send,{U+300D}            ;// alt + shift + ]  转换为 」
@@ -242,6 +248,75 @@ Return
 
 !]::Send !{Right}
 Return
+
+!y::Send ^{h}
+Return
+
+!t::Send ^{t}
+Return
+
+!+t::Send ^+{t}
+Return
+
+!r::Send ^{r}
+Return
+}
+
+#IfWinActive ahk_exe Code.exe
+{
+![::Send !{Left}
+Return
+
+!]::Send !{Right}
+Return
+
+!p::Send ^{p}
+Return
+
+!+p::Send ^+{p}
+return
+}
+
+#IfWinActive ahk_exe Obsidian.exe
+{
+![::Send !{Left}
+Return
+
+!]::Send !{Right}
+Return
+
+!p::Send ^{p}
+Return
+
+!e::Send ^{e}
+Return
+
+!#e::Send ^!{e}
+Return
+
+!+d::Send ^+{d}
+Return
+
+!o::Send ^{o}
+Return
+}
+
+#IfWinActive ahk_exe webstorm64.exe
+{
+![::Send ^!{Left}
+Return
+
+!]::Send ^!{Right}
+Return
+
+!e::Send ^{e}
+Return
+
+!o::Send ^{n}
+Return
+
+!+o::Send ^+{n}
+Return
 }
 
 ; ----- telegram ---------
@@ -255,6 +330,7 @@ Return
 #IfWinActive
 
 ^!z::Run "C:\Users\who\AppData\Roaming\Telegram Desktop\Telegram.exe"
+Return
 ```
 
 ## 尾声
