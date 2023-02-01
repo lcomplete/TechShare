@@ -3,7 +3,7 @@
 > 分享使你我都受益，何乐而不为也。但伏尔泰说过，图书馆是真理和谬误的宝库，所以仅是希望对你有益，若有谬误还望指出以更正。
 
 - 🐦 我的 Twitter，分享效率方法 🪄、优质文章 📑、编程知识 🎹、实用工具 🛠️：[lcomplete](https://twitter.com/lcomplete_wild)
-- 📧 我的 Newsletter，点击这里订阅：[野生架构师](http://weekly.codelc.com/)
+- 📧 我的 Newsletter，点击这里订阅：[野生架构师](https://coolc.substack.com/)
 - 📘 我收藏的文章，可从中发现优质内容：[Favorites / Raindrop.io](https://raindrop.io/lcomplete/favorites-23073692)
 
 <!-- ## Hello World
