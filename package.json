@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev . --temp .temp",
-    "build": "vuepress build ."
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev . --temp .temp",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build ."
   },
   "repository": {
     "type": "git",
