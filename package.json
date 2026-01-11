@@ -8,8 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev . --temp .temp",
-    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build ."
+    "dev": "vuepress dev . --temp .temp",
+    "build": "vuepress build ."
   },
   "repository": {
     "type": "git",
@@ -23,8 +23,11 @@
   },
   "homepage": "https://github.com/lcomplete/TechShare#readme",
   "devDependencies": {
-    "@vuepress/plugin-back-to-top": "^1.4.0",
+    "@vuepress/bundler-vite": "^2.0.0-rc.20",
+    "@vuepress/plugin-search": "^2.0.0-rc.20",
+    "@vuepress/theme-default": "^2.0.0-rc.20",
     "github-buttons": "^2.13.0",
+    "cross-spawn": "^7.0.3",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-figure": "^0.2.0",
     "markdown-it-ins": "^3.0.0",
@@ -33,8 +36,9 @@
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
     "moment": "^2.29.2",
-    "vuepress": "^1.8.2",
-    "@vuepress/shared-utils": "^1.4.0",
+    "sass-embedded": "^1.92.1",
+    "vue": "^3.5.22",
+    "vuepress": "^2.0.0-rc.20",
     "cheerio": "^1.0.0-rc.3",
     "rss": "^1.2.2"
   },

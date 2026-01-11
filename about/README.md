@@ -3,8 +3,10 @@ home: true
 lang: zh-CN
 heroText: lcomplete 的技术分享
 tagline: 🌟 分享效率方法 🪄、优质文章 📑、编程知识 🎹、实用工具 🛠️ 和有趣内容 😄。💌 每周至少发送 1 篇 newsletter。
-actionText: 开始阅读
-actionLink: /
+actions:
+  - text: 开始阅读
+    link: /
+    type: primary
 features:
 - title: 技术分享
   details: 🌟 分享效率方法 🪄、优质文章 📑、编程知识 🎹、实用工具 🛠️ 和有趣内容 😄。

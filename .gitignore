@@ -27,3 +27,4 @@ manifest
 .obsidian
 .specstory/
 **/.DS_Store
+.cache/

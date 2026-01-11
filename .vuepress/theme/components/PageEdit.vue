@@ -2,16 +2,19 @@
   <footer class="page-edit">
     <div v-if="editLink" class="edit-link">
       <a :href="editLink" target="_blank" rel="noopener noreferrer">{{ editLinkText }}</a>
-      <OutboundLink/>
+      <OutboundLink />
     </div>
-    <div class="git-hub-star" v-if="showGitStar">
+    <div v-if="showGitStar" class="git-hub-star">
       <span class="prefix" v-if="pageWords > 0">
-        <github-button href="https://github.com/lcomplete/TechShare" data-icon="octicon-star" data-show-count="true"
-                       aria-label="Star lcomplete/TechShare on GitHub"
-                       style="position: relative; top: 4px; right: -4px;">
-        Star
-      </github-button>
-
+        <github-button
+          href="https://github.com/lcomplete/TechShare"
+          data-icon="octicon-star"
+          data-show-count="true"
+          aria-label="Star lcomplete/TechShare on GitHub"
+          style="position: relative; top: 4px; right: -4px;"
+        >
+          Star
+        </github-button>
       </span>
     </div>
     <div v-if="lastUpdated" class="last-updated">
@@ -24,100 +27,76 @@
   </footer>
 </template>
 
-<script>
-  import isNil from 'lodash/isNil'
-  import {endingSlashRE, outboundRE} from '@parent-theme/util'
+<script setup>
+import { computed } from 'vue'
+import { usePageData, usePageFrontmatter, useThemeData, useThemeLocaleData } from '@vuepress/client'
 
-  export default {
-    name: 'PageEdit',
+const page = usePageData()
+const frontmatter = usePageFrontmatter()
+const themeData = useThemeData()
+const themeLocale = useThemeLocaleData()
 
-    computed: {
-      lastUpdated() {
-        return this.$page.lastUpdated
-      },
+const endingSlashRE = /\/$/
+const outboundRE = /^[a-z]+:/i
 
-      pageWords() {
-        if (this.$page.readingTime && this.$page.readingTime.words)
-          return this.$page.readingTime.words
-        else
-          return 0
-      },
+const lastUpdated = computed(() => page.value.lastUpdated)
 
-      lastUpdatedText() {
-        if (typeof this.$themeLocaleConfig.lastUpdated === 'string') {
-          return this.$themeLocaleConfig.lastUpdated
-        }
-        if (typeof this.$site.themeConfig.lastUpdated === 'string') {
-          return this.$site.themeConfig.lastUpdated
-        }
-        return 'Last Updated'
-      },
+const pageWords = computed(() => page.value.readingTime?.words ?? 0)
 
-      editLink() {
-        const showEditLink = isNil(this.$page.frontmatter.editLink)
-          ? this.$site.themeConfig.editLinks
-          : this.$page.frontmatter.editLink
-
-        const {
-          repo,
-          docsDir = '',
-          docsBranch = 'master',
-          docsRepo = repo
-        } = this.$site.themeConfig
-
-        if (showEditLink && docsRepo && this.$page.relativePath) {
-          return this.createEditLink(
-            repo,
-            docsRepo,
-            docsDir,
-            docsBranch,
-            this.$page.relativePath
-          )
-        }
-        return null
-      },
-
-      showGitStar() {
-        return !this.$frontmatter.githubStar && this.$frontmatter.githubStar !== false
-      },
-
-      editLinkText() {
-        return (
-          this.$themeLocaleConfig.editLinkText
-          || this.$site.themeConfig.editLinkText
-          || `Edit this page`
-        )
-      }
-    },
-
-    methods: {
-      createEditLink(repo, docsRepo, docsDir, docsBranch, path) {
-        const bitbucket = /bitbucket.org/
-        if (bitbucket.test(repo)) {
-          const base = outboundRE.test(docsRepo) ? docsRepo : repo
-          return (
-            base.replace(endingSlashRE, '')
-            + `/src`
-            + `/${docsBranch}/`
-            + (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '')
-            + path
-            + `?mode=edit&spa=0&at=${docsBranch}&fileviewer=file-view-default`
-          )
-        }
-
-        const base = outboundRE.test(docsRepo)
-          ? docsRepo
-          : `https://github.com/${docsRepo}`
-        return (
-          base.replace(endingSlashRE, '')
-          + `/edit`
-          + `/${docsBranch}/`
-          + (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '')
-          + path
-        )
-      }
-    }
+const lastUpdatedText = computed(() => {
+  if (typeof themeLocale.value.lastUpdatedText === 'string') {
+    return themeLocale.value.lastUpdatedText
   }
+  if (typeof themeData.value.lastUpdatedText === 'string') {
+    return themeData.value.lastUpdatedText
+  }
+  return 'Last Updated'
+})
+
+const editLinkText = computed(() =>
+  themeLocale.value.editLinkText || themeData.value.editLinkText || 'Edit this page'
+)
+
+const showGitStar = computed(
+  () => !frontmatter.value.githubStar && frontmatter.value.githubStar !== false
+)
+
+const editLink = computed(() => {
+  const showEditLink =
+    frontmatter.value.editLink ?? themeData.value.editLink ?? themeData.value.editLinks
+
+  const { repo, docsDir = '', docsBranch = 'master', docsRepo = repo } = themeData.value
+  const filePath = page.value.filePathRelative
+
+  if (showEditLink && docsRepo && filePath) {
+    return createEditLink(repo, docsRepo, docsDir, docsBranch, filePath)
+  }
+  return null
+})
+
+const createEditLink = (repo, docsRepo, docsDir, docsBranch, filePath) => {
+  const bitbucket = /bitbucket.org/
+  if (bitbucket.test(repo)) {
+    const base = outboundRE.test(docsRepo) ? docsRepo : repo
+    return (
+      base.replace(endingSlashRE, '') +
+      `/src` +
+      `/${docsBranch}/` +
+      (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '') +
+      filePath +
+      `?mode=edit&spa=0&at=${docsBranch}&fileviewer=file-view-default`
+    )
+  }
+
+  const base = outboundRE.test(docsRepo) ? docsRepo : `https://github.com/${docsRepo}`
+  return (
+    base.replace(endingSlashRE, '') +
+    `/edit` +
+    `/${docsBranch}/` +
+    (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '') +
+    filePath
+  )
+}
 </script>
 
 <style lang="stylus">
@@ -166,5 +145,4 @@
         font-size 0.8em
         float none
         text-align left
-
 </style>

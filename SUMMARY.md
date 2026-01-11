@@ -1,6 +1,6 @@
 ---
 comment: false
-permalink: /summary
+permalink: /summary/
 ---
 
 # 目录

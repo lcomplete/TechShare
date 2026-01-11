@@ -1,0 +1,19 @@
+// 搜索框样式覆盖
+.vp-navbar .search-box {
+  order: -1 !important;
+  margin-inline-start: 0;
+  margin-inline-end: 1rem;
+
+  input {
+    width: 14rem !important;
+  }
+}
+
+.vp-navbar .vp-navbar-items {
+  order: 0 !important;
+}
+
+.vp-navbar .vp-toggle-color-mode-button {
+  order: 1 !important;
+}
+
