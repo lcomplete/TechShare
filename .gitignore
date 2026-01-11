@@ -25,3 +25,5 @@ dist
 manifest
 .temp
 .obsidian
+.specstory/
+**/.DS_Store

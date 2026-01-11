@@ -86,7 +86,7 @@ module.exports = {
     nav: [
       { text: "关于", link: "/about/" },
       { text: "博客", link: "https://codelc.com/" },
-      { text: "推特", link: "https://twitter.com/lcomplete_wild" },
+      { text: "推特", link: "https://x.com/xlcomplete" },
       { text: "邮箱订阅", link: "https://coolc.substack.com/" },
       { text: "RSS 订阅", link: "https://tech.codelc.com/rss.xml" },
       { text: "GitHub", link: "https://github.com/lcomplete/TechShare" },
