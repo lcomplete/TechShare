@@ -26,7 +26,7 @@ export default defineUserConfig({
     rssFeedPlugin({
       username: 'lcomplete',
       hostname: 'https://tech.codelc.com',
-      selector: '.content__default',
+      selector: '#content',
       count: 50,
       filter: (page) => /^docs/.test(page.filePathRelative || '') && page.frontmatter.title
     })
